@@ -36,78 +36,97 @@ if  [[ $1 = "--amber" ]]; then
 	MF="#1F1F1F"
 	AC="#ffb300"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Amber
 elif  [[ $1 = "--blue" ]]; then
 	MF="#FFFFFF"
 	AC="#1e88e5"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Blue
 elif  [[ $1 = "--blue-gray" ]]; then
 	MF="#FFFFFF"
 	AC="#546e7a"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Blue
 elif  [[ $1 = "--brown" ]]; then
 	MF="#FFFFFF"
 	AC="#6d4c41"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Brown
 elif  [[ $1 = "--cyan" ]]; then
 	MF="#1F1F1F"
 	AC="#00acc1"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Cyan
 elif  [[ $1 = "--deep-orange" ]]; then
 	MF="#FFFFFF"
 	AC="#f4511e"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/DeepOrange
 elif  [[ $1 = "--deep-purple" ]]; then
 	MF="#FFFFFF"
 	AC="#5e35b1"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/DeepPurple
 elif  [[ $1 = "--green" ]]; then
 	MF="#FFFFFF"
 	AC="#43a047"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Green
 elif  [[ $1 = "--gray" ]]; then
 	MF="#FFFFFF"
 	AC="#757575"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Gray
 elif  [[ $1 = "--indigo" ]]; then
 	MF="#FFFFFF"
 	AC="#3949ab"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Indigo
 elif  [[ $1 = "--light-blue" ]]; then
 	MF="#1F1F1F"
 	AC="#039be5"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Blue
 elif  [[ $1 = "--light-green" ]]; then
 	MF="#1F1F1F"
 	AC="#7cb342"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Green
 elif  [[ $1 = "--lime" ]]; then
 	MF="#1F1F1F"
 	AC="#c0ca33"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Green
 elif  [[ $1 = "--orange" ]]; then
 	MF="#1F1F1F"
 	AC="#fb8c00"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Orange
 elif  [[ $1 = "--pink" ]]; then
 	MF="#FFFFFF"
 	AC="#d81b60"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Pink
 elif  [[ $1 = "--purple" ]]; then
 	MF="#FFFFFF"
 	AC="#8e24aa"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Purple
 elif  [[ $1 = "--red" ]]; then
 	MF="#FFFFFF"
 	AC="#e53935"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Red
 elif  [[ $1 = "--teal" ]]; then
 	MF="#FFFFFF"
 	AC="#00897b"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Teal
 elif  [[ $1 = "--yellow" ]]; then
 	MF="#1F1F1F"
 	AC="#fdd835"
 	change_color
+	feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/Yellow
 else
 	cat <<- _EOF_
 	No option specified, Available options:

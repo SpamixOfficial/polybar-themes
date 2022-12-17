@@ -94,3 +94,5 @@ HEX=${AC:1}
 hex_to_rgb $HEX
 get_fg_color
 change_color
+feh --bg-fill --randomize $HOME/.config/polybar/Wallpapers/
+
