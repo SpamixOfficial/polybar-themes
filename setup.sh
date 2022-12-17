@@ -23,7 +23,7 @@ install_themes() {
 	else
 		{ mkdir -p "$PDIR"; cp -rf $DIR/$STYLE/* "$PDIR"; }	
 	fi
-	if [[ -f "$PDIR/launch.sh" ]]; then
+	if [[ -f "$PDIR/docky/launch.sh" ]]; then
 		echo -e "[*] Successfully Installed.\n"
 		exit 0
 	else
