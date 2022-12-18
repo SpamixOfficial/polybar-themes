@@ -32,6 +32,20 @@ install_themes() {
 	fi
 }
 
+# Install Backgrounds
+install_back() {
+	
+	cp -rf $DIR/Wallpapers "$PDIR"
+	cp $DIR/wallpaper-credits.txt "$PDIR"
+	if [[ -d "$PDIR/Wallpapers" ]]; then
+		echo -e "[*] Successfully Installed Backgrounds.\n"
+		exit 0
+	else
+		echo -e "[!] Failed to install backgrounds.\n"
+		exit 1
+	fi
+}
+
 # Main
 main() {
 	clear
