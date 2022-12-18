@@ -4,8 +4,8 @@
 
 # Dirs
 DIR=`pwd`
-FDIR="$HOME/.local/share/fonts"
-PDIR="$HOME/.config/polybar"
+FDIR="/usr/local/share/fonts/"
+PDIR="/etc/polybar/"
 
 # Install Fonts
 install_fonts() {
